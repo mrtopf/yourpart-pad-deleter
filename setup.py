@@ -18,9 +18,9 @@ setup(name='deleter',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-        "pyyaml",
         "starflyer",
         "pytest",
+        "PyEtherpadLite",
         "paste",
       ],
       entry_points="""
