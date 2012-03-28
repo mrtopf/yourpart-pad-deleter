@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="span6 offset3" id="formcontainer">
+        <h2>Pad löschen</h2>
+        <form action="/delete" method="post" id="deleteform" class="validate form-actions">
+            <div>
+                <label>Name des Pads</label>
+                <input type="text" class="required span5" placeholder="Name hinter /p/" name="name" id="name">
+            </div>
+            <div>
+                <button id="submit" class="btn btn-danger"><i class="icon-trash icon-white"></i> Löschen</a>
+            </div>
+        </form>
+    </div>
+    </div>
+{% endblock %}
